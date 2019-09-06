@@ -26,3 +26,13 @@ colnames(copier)=c("minutes","number")
 head(copier)
 ```
 
+
+```{r}
+names(icecream)
+```
+
+
+```{r}
+class(icecream$video)
+```
+
