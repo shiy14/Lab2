@@ -15,8 +15,8 @@ library(dplyr)
 ```
 
 ```{r}
-icecream <- read.table("icecream.txt")
+icecream <- read.table("/Users/yangfengshi/Desktop/STA\ 463/Lab2/icecream.txt")
 head(icecream)
-copier <- read.table("CH01PR20.txt")
+copier <- read.table("/Users/yangfengshi/Desktop/STA\ 463/Lab2/CH01PR20.txt")
 head(copier)
 ```
