@@ -7,9 +7,16 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Introduction
 
-```{r}
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
 ```
 
+```{r}
+icecream <- read.table("icecream.txt")
+head(icecream)
+copier <- read.table("CH01PR20.txt")
+head(copier)
+```
