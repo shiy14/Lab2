@@ -20,3 +20,9 @@ head(icecream)
 copier <- read.table("/Users/yangfengshi/Desktop/STA\ 463/Lab2/CH01PR20.txt")
 head(copier)
 ```
+
+```{r}
+colnames(copier)=c("minutes","number")
+head(copier)
+```
+
