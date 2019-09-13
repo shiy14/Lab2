@@ -9,3 +9,7 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+## Lab2
+
+[Lab2](Lab2.html)

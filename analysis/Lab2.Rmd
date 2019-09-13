@@ -36,3 +36,9 @@ names(icecream)
 class(icecream$video)
 ```
 
+```{r}
+head(icecream)
+icecream <- as_tibble(icecream)
+icecream
+```
+
